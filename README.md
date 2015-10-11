@@ -50,7 +50,8 @@ Finally, another option is to install nodejs using the node version manager
     curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
     
 After the install, check the versions typing the following:
-        
+    
+    #make sure you are using bash, other shells may fail finding nvm ie. zsh)    
     nvm ls-remote
     nvm install 0.12.7
     

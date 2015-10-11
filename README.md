@@ -35,7 +35,26 @@ Reboot
 
     sudo shutdown -r now
     
+Additionally, if front end tools (node/grunt) are required do the following
 
+    sudo apt-get update
+    sudo apt-get install --yes nodejs
+    
+In my case, I needed to compile and install native add-ons
+
+    apt-get install --yes build-essential
+    
+Finally, another option is to install nodejs using the node version manager
+
+    sudo apt-get install build-essential libssl-dev
+    curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+    
+After the install, check the versions typing the following:
+        
+    nvm ls-remote
+    nvm install 0.12.7
+    
+    
 
 
 
